@@ -1,0 +1,31 @@
+// Desafios Intermediários C# - GFT Start #5
+// MULTIPLICAÇÃO SIMPLES
+
+//DESAFIO
+//Você receberá dois valores inteiros. Faça a leitura e em seguida calcule o produto entre estes dois valores. 
+//Atribua esta operação à variável PROD, mostrando esta de acordo com a mensagem de saída esperada (exemplo abaixo).   
+
+//ENTRADA
+//A entrada contém 2 valores inteiros.
+
+//SAÍDA
+//Exiba a variável PROD conforme exemplo abaixo, tendo obrigatoriamente um espaço em branco antes e depois da igualdade.
+
+
+// Abaixo segue um exemplo de código que você pode ou não utilizar
+
+using System;
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a, b;
+            a = Convert.ToInt32(Console.ReadLine());
+            b = Convert.ToInt32(Console.ReadLine());
+            
+			Console.WriteLine("PROD = " + (a * b)); //implemente o código que representa a multiplicação.
+            Console.ReadLine();
+        }
+    }
+	
